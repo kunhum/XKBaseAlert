@@ -1,0 +1,16 @@
+PODS:
+  - XKBaseAlert (1.0.0)
+
+DEPENDENCIES:
+  - XKBaseAlert (from `../`)
+
+EXTERNAL SOURCES:
+  XKBaseAlert:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XKBaseAlert: 1fc3409a83cc916d441b3ae84a224d5bdede4086
+
+PODFILE CHECKSUM: 84d680c9df67e6d085a2f169995d7edfa5ba10de
+
+COCOAPODS: 1.9.1

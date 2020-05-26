@@ -1,0 +1,101 @@
+//
+//  XKAlertContainerViewController.swift
+//  Pods
+//
+//  Created by Nicholas on 2020/5/26.
+//
+
+import UIKit
+
+class XKAlertContainerViewController: UIViewController {
+    
+    typealias XKAlertContainerViewControllerHandler = () -> Void
+    
+    ///内容视图
+    @IBOutlet var contentView: UIView?
+    
+    var animationDuration = 0.5
+    
+    ///default is UIBlurEffectStyleDark
+    var effectStyle = UIBlurEffectStyle.dark
+    ///必须指定
+    var frameOfPresentedView = UIApplication.shared.keyWindow?.bounds
+    ///遮罩的透明度,默认0.5
+    var maskViewAlpha: CGFloat = 0.5
+    ///点击contentView以外区域dismiss，默认为yes，在确认给contentView赋值后才会生效
+    var dismissWhenTapOutsideContentView = true
+    
+    ///弹框即将显示时执行所需要的操作
+    private var presentationTransitionWillBeginHandler: XKAlertContainerViewControllerHandler?
+    ///弹框显示完毕时执行所需要的操作
+    private var presentationTransitionDidEndHandler: XKAlertContainerViewControllerHandler?
+    ///弹框即将消失时执行所需要的操作
+    private var dismissalTransitionWillBeginHandler: XKAlertContainerViewControllerHandler?
+    ///弹框消失之后执行所需要的操作
+    private var dismissalTransitionDidEndHandler: XKAlertContainerViewControllerHandler?
+    
+    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
+        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
+        initMethod()
+    }
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        initMethod()
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        // Do any additional setup after loading the view.
+        
+        view.backgroundColor = UIColor.clear
+    }
+    
+    func initMethod() {
+        
+        transitioningDelegate  = self
+        modalPresentationStyle = .custom
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        
+        guard dismissWhenTapOutsideContentView else {
+            return
+        }
+        guard let contentView = self.contentView else { return }
+        guard let touch = touches.first else { return }
+        
+        let point = touch.location(in: view)
+        let containPoint = contentView.frame.contains(point)
+        guard containPoint == false else { return }
+        
+        dismiss(animated: true, completion: nil)
+    }
+
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destination.
+        // Pass the selected object to the new view controller.
+    }
+    */
+
+}
+
+extension XKAlertContainerViewController: UIViewControllerTransitioningDelegate {
+    
+    func presentationController(forPresented presented: UIViewController, presenting: UIViewController?, source: UIViewController) -> UIPresentationController? {
+        
+        let presentController = XKAlertPresentController.init(presentedViewController: presented, presenting: presenting)
+        
+        presentController.maskViewAlpha        = maskViewAlpha
+        presentController.effectStyle          = effectStyle
+        presentController.frameOfPresentedView = frameOfPresentedView
+        presentController.animationDuration    = animationDuration
+        
+        return presentController
+    }
+    
+}
