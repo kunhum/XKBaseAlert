@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XKBaseAlert_Example' do
+  pod 'XKBaseAlert', :path => '../'
+
+  target 'XKBaseAlert_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
