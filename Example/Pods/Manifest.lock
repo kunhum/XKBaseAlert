@@ -1,5 +1,5 @@
 PODS:
-  - XKBaseAlert (1.0.0)
+  - XKBaseAlert (1.0.1)
 
 DEPENDENCIES:
   - XKBaseAlert (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XKBaseAlert: 1fc3409a83cc916d441b3ae84a224d5bdede4086
+  XKBaseAlert: 7a0fc0b81ab3b5c9aa39eeac6c8bb4d417529af1
 
 PODFILE CHECKSUM: 84d680c9df67e6d085a2f169995d7edfa5ba10de
 
