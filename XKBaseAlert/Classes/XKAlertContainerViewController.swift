@@ -7,23 +7,23 @@
 
 import UIKit
 
-class XKAlertContainerViewController: UIViewController {
+open class XKAlertContainerViewController: UIViewController {
     
     typealias XKAlertContainerViewControllerHandler = () -> Void
     
     ///内容视图
-    @IBOutlet var contentView: UIView?
+    @IBOutlet public var contentView: UIView?
     
-    var animationDuration = 0.5
+    public var animationDuration = 0.5
     
     ///default is UIBlurEffectStyleDark
-    var effectStyle = UIBlurEffectStyle.dark
+    public var effectStyle = UIBlurEffectStyle.dark
     ///必须指定
-    var frameOfPresentedView = UIApplication.shared.keyWindow?.bounds
+    public var frameOfPresentedView = UIApplication.shared.keyWindow?.bounds
     ///遮罩的透明度,默认0.5
-    var maskViewAlpha: CGFloat = 0.5
+    public var maskViewAlpha: CGFloat = 0.5
     ///点击contentView以外区域dismiss，默认为yes，在确认给contentView赋值后才会生效
-    var dismissWhenTapOutsideContentView = true
+    public var dismissWhenTapOutsideContentView = true
     
     ///弹框即将显示时执行所需要的操作
     private var presentationTransitionWillBeginHandler: XKAlertContainerViewControllerHandler?
@@ -38,12 +38,12 @@ class XKAlertContainerViewController: UIViewController {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
         initMethod()
     }
-    required init?(coder: NSCoder) {
+    required public init?(coder: NSCoder) {
         super.init(coder: coder)
         initMethod()
     }
     
-    override func viewDidLoad() {
+    open override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
@@ -57,7 +57,7 @@ class XKAlertContainerViewController: UIViewController {
         modalPresentationStyle = .custom
     }
     
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+    public override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         
         guard dismissWhenTapOutsideContentView else {
             return
@@ -86,7 +86,7 @@ class XKAlertContainerViewController: UIViewController {
 
 extension XKAlertContainerViewController: UIViewControllerTransitioningDelegate {
     
-    func presentationController(forPresented presented: UIViewController, presenting: UIViewController?, source: UIViewController) -> UIPresentationController? {
+    public func presentationController(forPresented presented: UIViewController, presenting: UIViewController?, source: UIViewController) -> UIPresentationController? {
         
         let presentController = XKAlertPresentController.init(presentedViewController: presented, presenting: presenting)
         

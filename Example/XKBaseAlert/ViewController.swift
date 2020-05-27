@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import XKBaseAlert
 
 class ViewController: UIViewController {
 

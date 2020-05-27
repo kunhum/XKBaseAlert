@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import XKBaseAlert
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

@@ -7,20 +7,20 @@
 
 import UIKit
 
-class XKAlertPresentController: UIPresentationController {
+open class XKAlertPresentController: UIPresentationController {
     
     typealias XKAlertPresentControllerHandler = () -> Void
     
-    var animationDuration = 0.5
+    public var animationDuration = 0.5
     
     ///default is UIBlurEffectStyleDark
-    var effectStyle = UIBlurEffectStyle.dark
+    public var effectStyle = UIBlurEffectStyle.dark
     ///必须指定
-    var frameOfPresentedView = UIApplication.shared.keyWindow?.bounds
+    public var frameOfPresentedView = UIApplication.shared.keyWindow?.bounds
     ///遮罩的透明度,默认0.5
-    var maskViewAlpha: CGFloat = 0.5
+    public var maskViewAlpha: CGFloat = 0.5
     ///背景view
-    let backgroundView = UIView()
+    public let backgroundView = UIView()
     ///弹框即将显示时执行所需要的操作
     private var presentationTransitionWillBeginHandler: XKAlertPresentControllerHandler?
     ///弹框显示完毕时执行所需要的操作
@@ -61,11 +61,11 @@ extension XKAlertPresentController {
     //MARK: - override
     
     //MARK: 决定了弹出框的frame
-    override var frameOfPresentedViewInContainerView: CGRect {
+    override public var frameOfPresentedViewInContainerView: CGRect {
         return frameOfPresentedView ?? CGRect.zero
     }
     //MARK: 重写此方法可以在弹框即将显示时执行所需要的操作
-    override func presentationTransitionWillBegin() {
+    public override func presentationTransitionWillBegin() {
         super.presentationTransitionWillBegin()
         
         guard let containerBounds      = containerView?.bounds else { return }
@@ -82,13 +82,13 @@ extension XKAlertPresentController {
         
     }
     //MARK: 重写此方法可以在弹框显示完毕时执行所需要的操作
-    override func presentationTransitionDidEnd(_ completed: Bool) {
+    public override func presentationTransitionDidEnd(_ completed: Bool) {
         super.presentationTransitionDidEnd(completed)
-        
         presentationTransitionDidEndHandler?()
     }
+    
     //MARK: 重写此方法可以在弹框即将消失时执行所需要的操作
-    override func dismissalTransitionWillBegin() {
+    public override func dismissalTransitionWillBegin() {
         super.dismissalTransitionWillBegin()
         
         UIView.animate(withDuration: animationDuration) {
@@ -97,7 +97,7 @@ extension XKAlertPresentController {
         dismissalTransitionWillBeginHandler?()
     }
     //MARK: 重写此方法可以在弹框消失之后执行所需要的操作
-    override func dismissalTransitionDidEnd(_ completed: Bool) {
+    public override func dismissalTransitionDidEnd(_ completed: Bool) {
         super.dismissalTransitionDidEnd(completed)
         
         dismissalTransitionDidEndHandler?()
