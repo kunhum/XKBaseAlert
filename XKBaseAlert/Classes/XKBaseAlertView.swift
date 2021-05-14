@@ -110,7 +110,7 @@ extension XKBaseAlertView {
     //MARK: 显示
     func xk_show() {
         
-        sendSubviewToBack(backgroundView)
+        sendSubview(toBack: backgroundView)
         
         switch animationType {
         case .sheet:

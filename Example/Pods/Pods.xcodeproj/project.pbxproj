@@ -7,33 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		178BE4FBD608781F980F2CFB3EB977F1 /* Pods-XKBaseAlert_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA67D20C906D2355A71716B539AF883 /* Pods-XKBaseAlert_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3811D995F38A21DDAB36CFB1C583F89D /* Pods-XKBaseAlert_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBFB2730EC4B55715617EA6186FCD79 /* Pods-XKBaseAlert_Example-dummy.m */; };
-		62EB1F5FBA8DCFC922FD482D1F57658E /* XKAlertPresentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE624D438E9C86CF7098FE08B456631A /* XKAlertPresentController.swift */; };
-		6B049FB7B0075D192F4811B75DD18131 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		7E1151930634B17D0B95E4371B05ACDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		7E4C2DD6CA78167B5E5B6078715BFC4E /* XKAlertContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D950D9AB88E65F46D2EC948D9FA32C74 /* XKAlertContainerViewController.swift */; };
-		895F5436EF6EDF0822787E1BEE256193 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		B5C458BBE09658EEFA2968A7F9B3D09A /* Pods-XKBaseAlert_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06C3C671CCB82C2DFD39E97EA70AB035 /* Pods-XKBaseAlert_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C36A5098D7F15E133785FD273C59BF9D /* Pods-XKBaseAlert_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD53D1DF8CF550DB94086CA0968E131F /* Pods-XKBaseAlert_Tests-dummy.m */; };
-		CC73A497D16F327B7431631234475A19 /* XKBaseAlert-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E801BD767B2E62C4E21726563C82A51 /* XKBaseAlert-dummy.m */; };
-		EDFA1786A908C81D34C0611D89C494AC /* XKBaseAlert-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A027674F0BD6D171D9F7287EAD4FA5CD /* XKBaseAlert-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33B8C79242D6D6D9A1B5827F6E92CF5E /* XKAlertContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAE55D9AD579E931EFFB0786A4AC4E4 /* XKAlertContainerViewController.swift */; };
+		52FFC42C357790A1363DF09794A62024 /* XKAlertPresentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3358DB7DAABEE9244AC5D92E8859E5A4 /* XKAlertPresentController.swift */; };
+		5D95BC8F7CEA49A3186CBCA3AE1A59E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6A7341006DFA40D4C8F47F6F649F8341 /* Pods-XKBaseAlert_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBFB2730EC4B55715617EA6186FCD79 /* Pods-XKBaseAlert_Example-dummy.m */; };
+		A08FFF7604B465CD6E64FF3035C651A0 /* XKBaseAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BA4E0308130CD9924294DC3DACF0B3 /* XKBaseAlertView.swift */; };
+		AFF900BDCCDADBB15CF01839CBD6CDB9 /* Pods-XKBaseAlert_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06C3C671CCB82C2DFD39E97EA70AB035 /* Pods-XKBaseAlert_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1244BA97211B666680151A7B6AD93FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B5AFF24932ECE31ECE9055144659592A /* Pods-XKBaseAlert_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA67D20C906D2355A71716B539AF883 /* Pods-XKBaseAlert_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C269CA8EB619E0D90567D9C3F21FE68D /* XKBaseAlert-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1747BBCB01306415D04830BBE9BB6F2 /* XKBaseAlert-dummy.m */; };
+		C9701ABCA7DDC3D0324D0C307F0936E0 /* XKBaseAlert-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D53AFB4041775DE9EC981E5769A07884 /* XKBaseAlert-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CABCFCA716B18C1984CA5CB58FE3D1CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E90B75B16AA314DD93E08E04192330E9 /* Pods-XKBaseAlert_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD53D1DF8CF550DB94086CA0968E131F /* Pods-XKBaseAlert_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		009BE63E756FF60E62F512820F8B96A0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 97969830AC17B02129CFB2F36759B502;
-			remoteInfo = XKBaseAlert;
-		};
-		815F2F919CA920327BC0CF8FD2ED4EBD /* PBXContainerItemProxy */ = {
+		6356928670E7C940C835D670012E4E89 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8D599E5D77DD1CABE389CAFC5E5FC6F9;
 			remoteInfo = "Pods-XKBaseAlert_Example";
+		};
+		8E3AD9E70FB92139119DD589B4EE8BEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97969830AC17B02129CFB2F36759B502;
+			remoteInfo = XKBaseAlert;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -43,85 +44,79 @@
 		0AA67D20C906D2355A71716B539AF883 /* Pods-XKBaseAlert_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XKBaseAlert_Example-umbrella.h"; sourceTree = "<group>"; };
 		0B9991FA94ABEB578A3915CAA4E9D247 /* Pods-XKBaseAlert_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XKBaseAlert_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		0E3D4E284D8E2C13A41B9E3CDF0F3A47 /* Pods-XKBaseAlert_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XKBaseAlert_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1486A4F2FB9D04293262708C1CFC0E08 /* XKBaseAlert-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XKBaseAlert-Info.plist"; sourceTree = "<group>"; };
+		182240CB9FFEF2899A0C4BB79101F287 /* XKBaseAlert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XKBaseAlert.release.xcconfig; sourceTree = "<group>"; };
 		20528D371DDA9952DC06FCFC9E40B175 /* Pods_XKBaseAlert_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XKBaseAlert_Tests.framework; path = "Pods-XKBaseAlert_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2153CD16534506F3BF1891D4C59A0DF5 /* Pods-XKBaseAlert_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XKBaseAlert_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		220FD53C0104C4424629BC6E67FD0E2D /* Pods-XKBaseAlert_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XKBaseAlert_Tests-Info.plist"; sourceTree = "<group>"; };
-		22B532A3FA5A6BF653F57138D64CE47F /* XKBaseAlert-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XKBaseAlert-Info.plist"; sourceTree = "<group>"; };
-		2E847B26813D64EA330A15F8A8492E5F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3E801BD767B2E62C4E21726563C82A51 /* XKBaseAlert-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XKBaseAlert-dummy.m"; sourceTree = "<group>"; };
+		30A4E2E7D55AC07C83F71BAF6EC6DDBE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3358DB7DAABEE9244AC5D92E8859E5A4 /* XKAlertPresentController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XKAlertPresentController.swift; path = XKBaseAlert/Classes/XKAlertPresentController.swift; sourceTree = "<group>"; };
+		45BA4E0308130CD9924294DC3DACF0B3 /* XKBaseAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XKBaseAlertView.swift; path = XKBaseAlert/Classes/XKBaseAlertView.swift; sourceTree = "<group>"; };
+		4EF344A433B9FEBC13C006BC9296A597 /* XKBaseAlert.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XKBaseAlert.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		545D322CC6F04D91A8C977F192465744 /* Pods-XKBaseAlert_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XKBaseAlert_Example.release.xcconfig"; sourceTree = "<group>"; };
 		56919BB26615B825FB682FB5CC135A06 /* Pods-XKBaseAlert_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XKBaseAlert_Example-Info.plist"; sourceTree = "<group>"; };
+		5B3FA2BC5976E17F7F87DB97DF6B6085 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		6CC9F114745A109BB536B8E2CA45C4CA /* Pods_XKBaseAlert_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XKBaseAlert_Example.framework; path = "Pods-XKBaseAlert_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7155F8E4D62BBAFA500F6B0544079283 /* XKBaseAlert.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XKBaseAlert.modulemap; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7ABDB973718ACF5D2F7FB22105316559 /* Pods-XKBaseAlert_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XKBaseAlert_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		818E5A1D73F38E0E7FA966B96B2AA86D /* Pods-XKBaseAlert_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XKBaseAlert_Tests.modulemap"; sourceTree = "<group>"; };
-		82DCA4218115C4708E351751B86BB14E /* XKBaseAlert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XKBaseAlert.debug.xcconfig; sourceTree = "<group>"; };
 		87967E8DE0349437422761AA5F30431B /* XKBaseAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XKBaseAlert.framework; path = XKBaseAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		98F6FC514548527F7926245ED12D1D00 /* XKBaseAlert.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XKBaseAlert.modulemap; sourceTree = "<group>"; };
 		9D6F57A258456C2B4363CF7966ECB720 /* Pods-XKBaseAlert_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XKBaseAlert_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F142765D0DFA722F452A10625F4BDBA /* Pods-XKBaseAlert_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XKBaseAlert_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		A027674F0BD6D171D9F7287EAD4FA5CD /* XKBaseAlert-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XKBaseAlert-umbrella.h"; sourceTree = "<group>"; };
-		B18CDB92B0A23BBDDF9EEA9462A51FCD /* XKBaseAlert.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XKBaseAlert.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A32CDABAAA03A0F4970F9EEE63E8399B /* XKBaseAlert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XKBaseAlert.debug.xcconfig; sourceTree = "<group>"; };
 		B5E53F04422AE25B99D28966809B60A6 /* Pods-XKBaseAlert_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XKBaseAlert_Example.modulemap"; sourceTree = "<group>"; };
-		BCEBF0812649B3817BD74837D3C5067D /* XKBaseAlert-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XKBaseAlert-prefix.pch"; sourceTree = "<group>"; };
-		BD126FDC78BD5635C72BBA78573B6394 /* XKBaseAlert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XKBaseAlert.release.xcconfig; sourceTree = "<group>"; };
-		CE624D438E9C86CF7098FE08B456631A /* XKAlertPresentController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XKAlertPresentController.swift; path = XKBaseAlert/Classes/XKAlertPresentController.swift; sourceTree = "<group>"; };
-		D950D9AB88E65F46D2EC948D9FA32C74 /* XKAlertContainerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XKAlertContainerViewController.swift; path = XKBaseAlert/Classes/XKAlertContainerViewController.swift; sourceTree = "<group>"; };
+		D53AFB4041775DE9EC981E5769A07884 /* XKBaseAlert-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XKBaseAlert-umbrella.h"; sourceTree = "<group>"; };
 		DD53D1DF8CF550DB94086CA0968E131F /* Pods-XKBaseAlert_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XKBaseAlert_Tests-dummy.m"; sourceTree = "<group>"; };
-		F139496E7A201A39FEC1314327283A81 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E1747BBCB01306415D04830BBE9BB6F2 /* XKBaseAlert-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XKBaseAlert-dummy.m"; sourceTree = "<group>"; };
+		F3F0B358830263B0F21399A9BCF88419 /* XKBaseAlert-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XKBaseAlert-prefix.pch"; sourceTree = "<group>"; };
 		F6E24DADE9075144ED138B410BBBC308 /* Pods-XKBaseAlert_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XKBaseAlert_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FEAE55D9AD579E931EFFB0786A4AC4E4 /* XKAlertContainerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XKAlertContainerViewController.swift; path = XKBaseAlert/Classes/XKAlertContainerViewController.swift; sourceTree = "<group>"; };
 		FFBFB2730EC4B55715617EA6186FCD79 /* Pods-XKBaseAlert_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XKBaseAlert_Example-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		676A2D15C05CB6913FB2550F25ADC270 /* Frameworks */ = {
+		6115FD31F4B458A2AE814AC2D38DC971 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E1151930634B17D0B95E4371B05ACDC /* Foundation.framework in Frameworks */,
+				CABCFCA716B18C1984CA5CB58FE3D1CA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		843461E75D1F46EB1D78F0E9D59C83A9 /* Frameworks */ = {
+		B6FEE0A3BEFB4605942774AA2BA7C422 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B049FB7B0075D192F4811B75DD18131 /* Foundation.framework in Frameworks */,
+				B1244BA97211B666680151A7B6AD93FE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BB916F6AF0B207C8582FBDE368EDD295 /* Frameworks */ = {
+		DC5B49F82B6B884848025C10AF61751E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				895F5436EF6EDF0822787E1BEE256193 /* Foundation.framework in Frameworks */,
+				5D95BC8F7CEA49A3186CBCA3AE1A59E7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01081DC462B17DB4B00AE86CD69B3692 /* XKBaseAlert */ = {
+		19C28FCDB817AB3180C7BBDA6FE2E6E7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D950D9AB88E65F46D2EC948D9FA32C74 /* XKAlertContainerViewController.swift */,
-				CE624D438E9C86CF7098FE08B456631A /* XKAlertPresentController.swift */,
-				2036B71F351B345686CBC0C31E67BEE9 /* Pod */,
-				FD5EC77263B764664511C9B7110B68B0 /* Support Files */,
+				7155F8E4D62BBAFA500F6B0544079283 /* XKBaseAlert.modulemap */,
+				E1747BBCB01306415D04830BBE9BB6F2 /* XKBaseAlert-dummy.m */,
+				1486A4F2FB9D04293262708C1CFC0E08 /* XKBaseAlert-Info.plist */,
+				F3F0B358830263B0F21399A9BCF88419 /* XKBaseAlert-prefix.pch */,
+				D53AFB4041775DE9EC981E5769A07884 /* XKBaseAlert-umbrella.h */,
+				A32CDABAAA03A0F4970F9EEE63E8399B /* XKBaseAlert.debug.xcconfig */,
+				182240CB9FFEF2899A0C4BB79101F287 /* XKBaseAlert.release.xcconfig */,
 			);
-			name = XKBaseAlert;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		2036B71F351B345686CBC0C31E67BEE9 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				2E847B26813D64EA330A15F8A8492E5F /* LICENSE */,
-				F139496E7A201A39FEC1314327283A81 /* README.md */,
-				B18CDB92B0A23BBDDF9EEA9462A51FCD /* XKBaseAlert.podspec */,
-			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XKBaseAlert";
 			sourceTree = "<group>";
 		};
 		4739808520211CC8951AC2560D53DC17 /* Products */ = {
@@ -134,20 +129,33 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B1DB028413747CBA50E1F008D1C157A0 /* Development Pods */ = {
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				01081DC462B17DB4B00AE86CD69B3692 /* XKBaseAlert */,
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		67C47D1C4AD682C2DB91474845FBEB64 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C27F7D5CB7157BBC7758A107F3362BC3 /* XKBaseAlert */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		C27F7D5CB7157BBC7758A107F3362BC3 /* XKBaseAlert */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				FEAE55D9AD579E931EFFB0786A4AC4E4 /* XKAlertContainerViewController.swift */,
+				3358DB7DAABEE9244AC5D92E8859E5A4 /* XKAlertPresentController.swift */,
+				45BA4E0308130CD9924294DC3DACF0B3 /* XKBaseAlertView.swift */,
+				D4E0E577023DB9736023E657DE594BFB /* Pod */,
+				19C28FCDB817AB3180C7BBDA6FE2E6E7 /* Support Files */,
 			);
-			name = iOS;
+			name = XKBaseAlert;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		CC5A271ADEAABF9E6E8374BD922E088C /* Targets Support Files */ = {
@@ -163,7 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				B1DB028413747CBA50E1F008D1C157A0 /* Development Pods */,
+				67C47D1C4AD682C2DB91474845FBEB64 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				4739808520211CC8951AC2560D53DC17 /* Products */,
 				CC5A271ADEAABF9E6E8374BD922E088C /* Targets Support Files */,
@@ -173,9 +181,19 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4E0E577023DB9736023E657DE594BFB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				30A4E2E7D55AC07C83F71BAF6EC6DDBE /* LICENSE */,
+				5B3FA2BC5976E17F7F87DB97DF6B6085 /* README.md */,
+				4EF344A433B9FEBC13C006BC9296A597 /* XKBaseAlert.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		E46D5BA43A5D5BB7A78EF7AD2F3DCF10 /* Pods-XKBaseAlert_Example */ = {
@@ -211,45 +229,30 @@
 			path = "Target Support Files/Pods-XKBaseAlert_Tests";
 			sourceTree = "<group>";
 		};
-		FD5EC77263B764664511C9B7110B68B0 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				98F6FC514548527F7926245ED12D1D00 /* XKBaseAlert.modulemap */,
-				3E801BD767B2E62C4E21726563C82A51 /* XKBaseAlert-dummy.m */,
-				22B532A3FA5A6BF653F57138D64CE47F /* XKBaseAlert-Info.plist */,
-				BCEBF0812649B3817BD74837D3C5067D /* XKBaseAlert-prefix.pch */,
-				A027674F0BD6D171D9F7287EAD4FA5CD /* XKBaseAlert-umbrella.h */,
-				82DCA4218115C4708E351751B86BB14E /* XKBaseAlert.debug.xcconfig */,
-				BD126FDC78BD5635C72BBA78573B6394 /* XKBaseAlert.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XKBaseAlert";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0049D8506A6EE03ADEEF813A33E589BB /* Headers */ = {
+		354EDFB70D2D2FAFAC6B2E072D1C3897 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDFA1786A908C81D34C0611D89C494AC /* XKBaseAlert-umbrella.h in Headers */,
+				C9701ABCA7DDC3D0324D0C307F0936E0 /* XKBaseAlert-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		57D69F2D7C9DDDAB1344BFCC85B2022B /* Headers */ = {
+		9507B7E4EB0E63EED5CE3353D15AADF9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5C458BBE09658EEFA2968A7F9B3D09A /* Pods-XKBaseAlert_Tests-umbrella.h in Headers */,
+				AFF900BDCCDADBB15CF01839CBD6CDB9 /* Pods-XKBaseAlert_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90C968B15E900A8011D6F166BEEB6026 /* Headers */ = {
+		BC990ED534AE9EFF7B4E50EB7CE2878C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				178BE4FBD608781F980F2CFB3EB977F1 /* Pods-XKBaseAlert_Example-umbrella.h in Headers */,
+				B5AFF24932ECE31ECE9055144659592A /* Pods-XKBaseAlert_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,17 +261,17 @@
 /* Begin PBXNativeTarget section */
 		8D599E5D77DD1CABE389CAFC5E5FC6F9 /* Pods-XKBaseAlert_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0CD4D677006B585338439E6A1E9B3D0B /* Build configuration list for PBXNativeTarget "Pods-XKBaseAlert_Example" */;
+			buildConfigurationList = 80467E5B37B4A5F6716960D88A21634B /* Build configuration list for PBXNativeTarget "Pods-XKBaseAlert_Example" */;
 			buildPhases = (
-				90C968B15E900A8011D6F166BEEB6026 /* Headers */,
-				89F539C816D13BC853343D1A2050CC26 /* Sources */,
-				BB916F6AF0B207C8582FBDE368EDD295 /* Frameworks */,
-				62876F001F77BA6EC5C400DD9EE5AF92 /* Resources */,
+				BC990ED534AE9EFF7B4E50EB7CE2878C /* Headers */,
+				4C5C63AC5DF5C9AC5C91A2697BF6C9B6 /* Sources */,
+				6115FD31F4B458A2AE814AC2D38DC971 /* Frameworks */,
+				D463A84EB067E9FD749E40D0341C8910 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F79E345030350A2B1CA687C192353971 /* PBXTargetDependency */,
+				3B3D7166F0AD6CE1B3F85C273BE6B5AB /* PBXTargetDependency */,
 			);
 			name = "Pods-XKBaseAlert_Example";
 			productName = "Pods-XKBaseAlert_Example";
@@ -277,12 +280,12 @@
 		};
 		97969830AC17B02129CFB2F36759B502 /* XKBaseAlert */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E18CE6EECE4E91254F2C69BB0A3824A6 /* Build configuration list for PBXNativeTarget "XKBaseAlert" */;
+			buildConfigurationList = B298223F6CBBE929B172B5647171B5CD /* Build configuration list for PBXNativeTarget "XKBaseAlert" */;
 			buildPhases = (
-				0049D8506A6EE03ADEEF813A33E589BB /* Headers */,
-				C4F0AE98DB2D8CC8F4D1C1070683F9C3 /* Sources */,
-				843461E75D1F46EB1D78F0E9D59C83A9 /* Frameworks */,
-				74B0C2D830FBE218D9CA149BB2F87976 /* Resources */,
+				354EDFB70D2D2FAFAC6B2E072D1C3897 /* Headers */,
+				466217A80C36F1FCC59FC09DBC65CD65 /* Sources */,
+				B6FEE0A3BEFB4605942774AA2BA7C422 /* Frameworks */,
+				BF72E2E774F5CEFFFBCBBE4A770BA6B6 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -295,17 +298,17 @@
 		};
 		E14B8C168F52AF7D4D2BBEED76756A7D /* Pods-XKBaseAlert_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 024BE676908DC10FB8CCA01120FC1502 /* Build configuration list for PBXNativeTarget "Pods-XKBaseAlert_Tests" */;
+			buildConfigurationList = 765D650773D351B079B2D6BAEE6DC2A3 /* Build configuration list for PBXNativeTarget "Pods-XKBaseAlert_Tests" */;
 			buildPhases = (
-				57D69F2D7C9DDDAB1344BFCC85B2022B /* Headers */,
-				B2A8E1E799095E4B610A4FEDF0852235 /* Sources */,
-				676A2D15C05CB6913FB2550F25ADC270 /* Frameworks */,
-				EE07C8AA43B5D0554E0FC5A862A1F37E /* Resources */,
+				9507B7E4EB0E63EED5CE3353D15AADF9 /* Headers */,
+				EC82EC1013AFBFB9BB9533381787DCEB /* Sources */,
+				DC5B49F82B6B884848025C10AF61751E /* Frameworks */,
+				197FCFF6ABE033067E10982C1A12D13C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				39638BD75DCBDBA37BCA300AA877E697 /* PBXTargetDependency */,
+				F72F526E10CAFAD3630E2393072B6669 /* PBXTargetDependency */,
 			);
 			name = "Pods-XKBaseAlert_Tests";
 			productName = "Pods-XKBaseAlert_Tests";
@@ -342,21 +345,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		62876F001F77BA6EC5C400DD9EE5AF92 /* Resources */ = {
+		197FCFF6ABE033067E10982C1A12D13C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		74B0C2D830FBE218D9CA149BB2F87976 /* Resources */ = {
+		BF72E2E774F5CEFFFBCBBE4A770BA6B6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE07C8AA43B5D0554E0FC5A862A1F37E /* Resources */ = {
+		D463A84EB067E9FD749E40D0341C8910 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -366,55 +369,55 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		89F539C816D13BC853343D1A2050CC26 /* Sources */ = {
+		466217A80C36F1FCC59FC09DBC65CD65 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3811D995F38A21DDAB36CFB1C583F89D /* Pods-XKBaseAlert_Example-dummy.m in Sources */,
+				33B8C79242D6D6D9A1B5827F6E92CF5E /* XKAlertContainerViewController.swift in Sources */,
+				52FFC42C357790A1363DF09794A62024 /* XKAlertPresentController.swift in Sources */,
+				C269CA8EB619E0D90567D9C3F21FE68D /* XKBaseAlert-dummy.m in Sources */,
+				A08FFF7604B465CD6E64FF3035C651A0 /* XKBaseAlertView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B2A8E1E799095E4B610A4FEDF0852235 /* Sources */ = {
+		4C5C63AC5DF5C9AC5C91A2697BF6C9B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C36A5098D7F15E133785FD273C59BF9D /* Pods-XKBaseAlert_Tests-dummy.m in Sources */,
+				6A7341006DFA40D4C8F47F6F649F8341 /* Pods-XKBaseAlert_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4F0AE98DB2D8CC8F4D1C1070683F9C3 /* Sources */ = {
+		EC82EC1013AFBFB9BB9533381787DCEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E4C2DD6CA78167B5E5B6078715BFC4E /* XKAlertContainerViewController.swift in Sources */,
-				62EB1F5FBA8DCFC922FD482D1F57658E /* XKAlertPresentController.swift in Sources */,
-				CC73A497D16F327B7431631234475A19 /* XKBaseAlert-dummy.m in Sources */,
+				E90B75B16AA314DD93E08E04192330E9 /* Pods-XKBaseAlert_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		39638BD75DCBDBA37BCA300AA877E697 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-XKBaseAlert_Example";
-			target = 8D599E5D77DD1CABE389CAFC5E5FC6F9 /* Pods-XKBaseAlert_Example */;
-			targetProxy = 815F2F919CA920327BC0CF8FD2ED4EBD /* PBXContainerItemProxy */;
-		};
-		F79E345030350A2B1CA687C192353971 /* PBXTargetDependency */ = {
+		3B3D7166F0AD6CE1B3F85C273BE6B5AB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = XKBaseAlert;
 			target = 97969830AC17B02129CFB2F36759B502 /* XKBaseAlert */;
-			targetProxy = 009BE63E756FF60E62F512820F8B96A0 /* PBXContainerItemProxy */;
+			targetProxy = 8E3AD9E70FB92139119DD589B4EE8BEE /* PBXContainerItemProxy */;
+		};
+		F72F526E10CAFAD3630E2393072B6669 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-XKBaseAlert_Example";
+			target = 8D599E5D77DD1CABE389CAFC5E5FC6F9 /* Pods-XKBaseAlert_Example */;
+			targetProxy = 6356928670E7C940C835D670012E4E89 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1A1E01C4A22DDFC752ABB0B9B1C9B933 /* Release */ = {
+		33F441D62A1F018E6D96237886B93CCC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD126FDC78BD5635C72BBA78573B6394 /* XKBaseAlert.release.xcconfig */;
+			baseConfigurationReference = 182240CB9FFEF2899A0C4BB79101F287 /* XKBaseAlert.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -442,11 +445,11 @@
 			};
 			name = Release;
 		};
-		3EFD42DA7DAA1BB717FDC3B8B864D2B8 /* Debug */ = {
+		3FAD5F963E3B7E534E691961717F0069 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82DCA4218115C4708E351751B86BB14E /* XKBaseAlert.debug.xcconfig */;
+			baseConfigurationReference = F6E24DADE9075144ED138B410BBBC308 /* Pods-XKBaseAlert_Example.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -455,28 +458,30 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XKBaseAlert/XKBaseAlert-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XKBaseAlert/XKBaseAlert-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-XKBaseAlert_Example/Pods-XKBaseAlert_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XKBaseAlert/XKBaseAlert.modulemap";
-				PRODUCT_MODULE_NAME = XKBaseAlert;
-				PRODUCT_NAME = XKBaseAlert;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XKBaseAlert_Example/Pods-XKBaseAlert_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+		431BA2B8298F0EE71735B9E0114E1955 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -499,6 +504,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -533,10 +539,77 @@
 			};
 			name = Release;
 		};
-		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+		47E2C0E7A03C95D34ECE5E8B5DDDAEBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03A62783D853ADA44B8A6C9D28BDA0CC /* Pods-XKBaseAlert_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XKBaseAlert_Tests/Pods-XKBaseAlert_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XKBaseAlert_Tests/Pods-XKBaseAlert_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		60031204F194271EABA24085E9C326ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 545D322CC6F04D91A8C977F192465744 /* Pods-XKBaseAlert_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XKBaseAlert_Example/Pods-XKBaseAlert_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XKBaseAlert_Example/Pods-XKBaseAlert_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		79759604D78320E712558F49DF19AA9F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -559,6 +632,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -597,79 +671,11 @@
 			};
 			name = Debug;
 		};
-		DDE40C994AD486CFE507F35B78E9663E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6E24DADE9075144ED138B410BBBC308 /* Pods-XKBaseAlert_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XKBaseAlert_Example/Pods-XKBaseAlert_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-XKBaseAlert_Example/Pods-XKBaseAlert_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E621BB139FE899D8CE600212C5BDC5B9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 03A62783D853ADA44B8A6C9D28BDA0CC /* Pods-XKBaseAlert_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XKBaseAlert_Tests/Pods-XKBaseAlert_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-XKBaseAlert_Tests/Pods-XKBaseAlert_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		EDEDB520D64ADB70A61E00F8E3CFDABB /* Debug */ = {
+		A006C9AFEF1BED9DE283CC96B5E18B60 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7ABDB973718ACF5D2F7FB22105316559 /* Pods-XKBaseAlert_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -697,12 +703,10 @@
 			};
 			name = Debug;
 		};
-		EEB19C38A7C6D6DB533E4A467D8CB218 /* Release */ = {
+		DC0D8154080CBAED74B0DB6A33FD57F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 545D322CC6F04D91A8C977F192465744 /* Pods-XKBaseAlert_Example.release.xcconfig */;
+			baseConfigurationReference = A32CDABAAA03A0F4970F9EEE63E8399B /* XKBaseAlert.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -711,61 +715,59 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XKBaseAlert_Example/Pods-XKBaseAlert_Example-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/XKBaseAlert/XKBaseAlert-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XKBaseAlert/XKBaseAlert-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-XKBaseAlert_Example/Pods-XKBaseAlert_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/XKBaseAlert/XKBaseAlert.modulemap";
+				PRODUCT_MODULE_NAME = XKBaseAlert;
+				PRODUCT_NAME = XKBaseAlert;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		024BE676908DC10FB8CCA01120FC1502 /* Build configuration list for PBXNativeTarget "Pods-XKBaseAlert_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EDEDB520D64ADB70A61E00F8E3CFDABB /* Debug */,
-				E621BB139FE899D8CE600212C5BDC5B9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0CD4D677006B585338439E6A1E9B3D0B /* Build configuration list for PBXNativeTarget "Pods-XKBaseAlert_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DDE40C994AD486CFE507F35B78E9663E /* Debug */,
-				EEB19C38A7C6D6DB533E4A467D8CB218 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
-				B0087CB4594321EF41619F3181FE120E /* Release */,
+				79759604D78320E712558F49DF19AA9F /* Debug */,
+				431BA2B8298F0EE71735B9E0114E1955 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E18CE6EECE4E91254F2C69BB0A3824A6 /* Build configuration list for PBXNativeTarget "XKBaseAlert" */ = {
+		765D650773D351B079B2D6BAEE6DC2A3 /* Build configuration list for PBXNativeTarget "Pods-XKBaseAlert_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3EFD42DA7DAA1BB717FDC3B8B864D2B8 /* Debug */,
-				1A1E01C4A22DDFC752ABB0B9B1C9B933 /* Release */,
+				A006C9AFEF1BED9DE283CC96B5E18B60 /* Debug */,
+				47E2C0E7A03C95D34ECE5E8B5DDDAEBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80467E5B37B4A5F6716960D88A21634B /* Build configuration list for PBXNativeTarget "Pods-XKBaseAlert_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FAD5F963E3B7E534E691961717F0069 /* Debug */,
+				60031204F194271EABA24085E9C326ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B298223F6CBBE929B172B5647171B5CD /* Build configuration list for PBXNativeTarget "XKBaseAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC0D8154080CBAED74B0DB6A33FD57F7 /* Debug */,
+				33F441D62A1F018E6D96237886B93CCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -30,6 +30,11 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
+  # s.pod_target_xcconfig = {
+  #      'ENABLE_BITCODE' => 'NO', 'SWIFT_VERSION' => '4.0'
+  #  }
+  s.swift_version='4.0'
+
   s.source_files = 'XKBaseAlert/Classes/**/*'
   
   # s.resource_bundles = {
