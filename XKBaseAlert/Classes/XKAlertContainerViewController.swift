@@ -101,4 +101,19 @@ extension XKAlertContainerViewController: UIViewControllerTransitioningDelegate 
         return presentController
     }
     
+    public func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        let transition = XKTransition()
+        transition.style             = style
+        transition.animationDuration = animationDuration
+        return transition
+    }
+    
+    public func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        let transition = XKTransition()
+        transition.style             = style
+        transition.isDismissed       = true
+        transition.animationDuration = dismissAnimationDuration
+        return transition
+    }
+    
 }

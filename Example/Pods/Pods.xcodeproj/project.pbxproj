@@ -7,29 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		33B8C79242D6D6D9A1B5827F6E92CF5E /* XKAlertContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAE55D9AD579E931EFFB0786A4AC4E4 /* XKAlertContainerViewController.swift */; };
-		52FFC42C357790A1363DF09794A62024 /* XKAlertPresentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3358DB7DAABEE9244AC5D92E8859E5A4 /* XKAlertPresentController.swift */; };
+		3BFE09237C5D2A906511279F220DFCF6 /* XKBaseAlert-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 435E1DD248A29AEB37C2BEB043BB4165 /* XKBaseAlert-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EEF5C9DC1437D78DC211DA227F6FF5F /* XKTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04CD1FDB30BF35A7498C5F27CC01FF3 /* XKTransition.swift */; };
+		4D1EEF43B94253C7F2C32F4852BDF2EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		5D95BC8F7CEA49A3186CBCA3AE1A59E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		622BAE4DDC727E9C19D8CA3848DE2B1C /* XKAlertPresentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88312CFF4BD19CBD8E5BBD659E1A5555 /* XKAlertPresentController.swift */; };
 		6A7341006DFA40D4C8F47F6F649F8341 /* Pods-XKBaseAlert_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBFB2730EC4B55715617EA6186FCD79 /* Pods-XKBaseAlert_Example-dummy.m */; };
-		A08FFF7604B465CD6E64FF3035C651A0 /* XKBaseAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BA4E0308130CD9924294DC3DACF0B3 /* XKBaseAlertView.swift */; };
+		AEA40F4B6C99C0FC2EAF9B245896C42E /* XKBaseAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42BFE29E1FD1315C2BD42351FA951A1 /* XKBaseAlertView.swift */; };
 		AFF900BDCCDADBB15CF01839CBD6CDB9 /* Pods-XKBaseAlert_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06C3C671CCB82C2DFD39E97EA70AB035 /* Pods-XKBaseAlert_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B1244BA97211B666680151A7B6AD93FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		B5AFF24932ECE31ECE9055144659592A /* Pods-XKBaseAlert_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA67D20C906D2355A71716B539AF883 /* Pods-XKBaseAlert_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C269CA8EB619E0D90567D9C3F21FE68D /* XKBaseAlert-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1747BBCB01306415D04830BBE9BB6F2 /* XKBaseAlert-dummy.m */; };
-		C9701ABCA7DDC3D0324D0C307F0936E0 /* XKBaseAlert-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D53AFB4041775DE9EC981E5769A07884 /* XKBaseAlert-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9058DE225F22C4C2788D892C12D48EB /* XKBaseAlert-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 167DD44F8594C8480017FB4195DFD9C1 /* XKBaseAlert-dummy.m */; };
 		CABCFCA716B18C1984CA5CB58FE3D1CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		E90B75B16AA314DD93E08E04192330E9 /* Pods-XKBaseAlert_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD53D1DF8CF550DB94086CA0968E131F /* Pods-XKBaseAlert_Tests-dummy.m */; };
+		ECDB856E430311144814D8D1499D14E6 /* XKAlertContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA024E38761281D9F420F57754254F1D /* XKAlertContainerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6356928670E7C940C835D670012E4E89 /* PBXContainerItemProxy */ = {
+		087408A2FE9CE8A86E8779A53FC434F7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8D599E5D77DD1CABE389CAFC5E5FC6F9;
 			remoteInfo = "Pods-XKBaseAlert_Example";
 		};
-		8E3AD9E70FB92139119DD589B4EE8BEE /* PBXContainerItemProxy */ = {
+		CF244F86F2BBBF85A60DA30F96DA29E0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -44,35 +45,36 @@
 		0AA67D20C906D2355A71716B539AF883 /* Pods-XKBaseAlert_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XKBaseAlert_Example-umbrella.h"; sourceTree = "<group>"; };
 		0B9991FA94ABEB578A3915CAA4E9D247 /* Pods-XKBaseAlert_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XKBaseAlert_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		0E3D4E284D8E2C13A41B9E3CDF0F3A47 /* Pods-XKBaseAlert_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XKBaseAlert_Example-frameworks.sh"; sourceTree = "<group>"; };
-		1486A4F2FB9D04293262708C1CFC0E08 /* XKBaseAlert-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XKBaseAlert-Info.plist"; sourceTree = "<group>"; };
-		182240CB9FFEF2899A0C4BB79101F287 /* XKBaseAlert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XKBaseAlert.release.xcconfig; sourceTree = "<group>"; };
+		167DD44F8594C8480017FB4195DFD9C1 /* XKBaseAlert-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XKBaseAlert-dummy.m"; sourceTree = "<group>"; };
+		1D5273E32783DD2007DD1F2EE6DE3EE8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		20528D371DDA9952DC06FCFC9E40B175 /* Pods_XKBaseAlert_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XKBaseAlert_Tests.framework; path = "Pods-XKBaseAlert_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2153CD16534506F3BF1891D4C59A0DF5 /* Pods-XKBaseAlert_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XKBaseAlert_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		220FD53C0104C4424629BC6E67FD0E2D /* Pods-XKBaseAlert_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XKBaseAlert_Tests-Info.plist"; sourceTree = "<group>"; };
-		30A4E2E7D55AC07C83F71BAF6EC6DDBE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		3358DB7DAABEE9244AC5D92E8859E5A4 /* XKAlertPresentController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XKAlertPresentController.swift; path = XKBaseAlert/Classes/XKAlertPresentController.swift; sourceTree = "<group>"; };
-		45BA4E0308130CD9924294DC3DACF0B3 /* XKBaseAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XKBaseAlertView.swift; path = XKBaseAlert/Classes/XKBaseAlertView.swift; sourceTree = "<group>"; };
-		4EF344A433B9FEBC13C006BC9296A597 /* XKBaseAlert.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XKBaseAlert.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		435E1DD248A29AEB37C2BEB043BB4165 /* XKBaseAlert-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XKBaseAlert-umbrella.h"; sourceTree = "<group>"; };
+		45B521E9FACE96AC1A150B6199144608 /* XKBaseAlert-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XKBaseAlert-Info.plist"; sourceTree = "<group>"; };
+		4E81B7E934A8409251C29E6C4E9B85DE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		545D322CC6F04D91A8C977F192465744 /* Pods-XKBaseAlert_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XKBaseAlert_Example.release.xcconfig"; sourceTree = "<group>"; };
 		56919BB26615B825FB682FB5CC135A06 /* Pods-XKBaseAlert_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XKBaseAlert_Example-Info.plist"; sourceTree = "<group>"; };
-		5B3FA2BC5976E17F7F87DB97DF6B6085 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		6CC9F114745A109BB536B8E2CA45C4CA /* Pods_XKBaseAlert_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XKBaseAlert_Example.framework; path = "Pods-XKBaseAlert_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7155F8E4D62BBAFA500F6B0544079283 /* XKBaseAlert.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XKBaseAlert.modulemap; sourceTree = "<group>"; };
+		704C13976A853F6DA46792A2A0F04652 /* XKBaseAlert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XKBaseAlert.release.xcconfig; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7ABDB973718ACF5D2F7FB22105316559 /* Pods-XKBaseAlert_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XKBaseAlert_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		818E5A1D73F38E0E7FA966B96B2AA86D /* Pods-XKBaseAlert_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XKBaseAlert_Tests.modulemap"; sourceTree = "<group>"; };
 		87967E8DE0349437422761AA5F30431B /* XKBaseAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XKBaseAlert.framework; path = XKBaseAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88312CFF4BD19CBD8E5BBD659E1A5555 /* XKAlertPresentController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XKAlertPresentController.swift; path = XKBaseAlert/Classes/XKAlertPresentController.swift; sourceTree = "<group>"; };
+		9490B4A1DF374B752A11F1D1E3B652E9 /* XKBaseAlert.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XKBaseAlert.modulemap; sourceTree = "<group>"; };
+		9506BFE50F8AFC3CD1444C070376D62E /* XKBaseAlert-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XKBaseAlert-prefix.pch"; sourceTree = "<group>"; };
 		9D6F57A258456C2B4363CF7966ECB720 /* Pods-XKBaseAlert_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XKBaseAlert_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F142765D0DFA722F452A10625F4BDBA /* Pods-XKBaseAlert_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XKBaseAlert_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		A32CDABAAA03A0F4970F9EEE63E8399B /* XKBaseAlert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XKBaseAlert.debug.xcconfig; sourceTree = "<group>"; };
 		B5E53F04422AE25B99D28966809B60A6 /* Pods-XKBaseAlert_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XKBaseAlert_Example.modulemap"; sourceTree = "<group>"; };
-		D53AFB4041775DE9EC981E5769A07884 /* XKBaseAlert-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XKBaseAlert-umbrella.h"; sourceTree = "<group>"; };
+		BA024E38761281D9F420F57754254F1D /* XKAlertContainerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XKAlertContainerViewController.swift; path = XKBaseAlert/Classes/XKAlertContainerViewController.swift; sourceTree = "<group>"; };
+		C42BFE29E1FD1315C2BD42351FA951A1 /* XKBaseAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XKBaseAlertView.swift; path = XKBaseAlert/Classes/XKBaseAlertView.swift; sourceTree = "<group>"; };
+		D7BEA2128E67ABFBEF78A9721AAD2262 /* XKBaseAlert.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XKBaseAlert.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DD53D1DF8CF550DB94086CA0968E131F /* Pods-XKBaseAlert_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XKBaseAlert_Tests-dummy.m"; sourceTree = "<group>"; };
-		E1747BBCB01306415D04830BBE9BB6F2 /* XKBaseAlert-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XKBaseAlert-dummy.m"; sourceTree = "<group>"; };
-		F3F0B358830263B0F21399A9BCF88419 /* XKBaseAlert-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XKBaseAlert-prefix.pch"; sourceTree = "<group>"; };
+		E04CD1FDB30BF35A7498C5F27CC01FF3 /* XKTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XKTransition.swift; path = XKBaseAlert/Classes/XKTransition.swift; sourceTree = "<group>"; };
+		F2E1476ECA21F820594D6CFC18121191 /* XKBaseAlert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XKBaseAlert.debug.xcconfig; sourceTree = "<group>"; };
 		F6E24DADE9075144ED138B410BBBC308 /* Pods-XKBaseAlert_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XKBaseAlert_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FEAE55D9AD579E931EFFB0786A4AC4E4 /* XKAlertContainerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XKAlertContainerViewController.swift; path = XKBaseAlert/Classes/XKAlertContainerViewController.swift; sourceTree = "<group>"; };
 		FFBFB2730EC4B55715617EA6186FCD79 /* Pods-XKBaseAlert_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XKBaseAlert_Example-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,14 +87,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B6FEE0A3BEFB4605942774AA2BA7C422 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B1244BA97211B666680151A7B6AD93FE /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		DC5B49F82B6B884848025C10AF61751E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -101,24 +95,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F9B90C2019266CC657CFF7E0729EECE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1EEF43B94253C7F2C32F4852BDF2EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		19C28FCDB817AB3180C7BBDA6FE2E6E7 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7155F8E4D62BBAFA500F6B0544079283 /* XKBaseAlert.modulemap */,
-				E1747BBCB01306415D04830BBE9BB6F2 /* XKBaseAlert-dummy.m */,
-				1486A4F2FB9D04293262708C1CFC0E08 /* XKBaseAlert-Info.plist */,
-				F3F0B358830263B0F21399A9BCF88419 /* XKBaseAlert-prefix.pch */,
-				D53AFB4041775DE9EC981E5769A07884 /* XKBaseAlert-umbrella.h */,
-				A32CDABAAA03A0F4970F9EEE63E8399B /* XKBaseAlert.debug.xcconfig */,
-				182240CB9FFEF2899A0C4BB79101F287 /* XKBaseAlert.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XKBaseAlert";
-			sourceTree = "<group>";
-		};
 		4739808520211CC8951AC2560D53DC17 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -137,25 +124,37 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		67C47D1C4AD682C2DB91474845FBEB64 /* Development Pods */ = {
+		5A989626CBABF3BF954C99404DC03548 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C27F7D5CB7157BBC7758A107F3362BC3 /* XKBaseAlert */,
+				9490B4A1DF374B752A11F1D1E3B652E9 /* XKBaseAlert.modulemap */,
+				167DD44F8594C8480017FB4195DFD9C1 /* XKBaseAlert-dummy.m */,
+				45B521E9FACE96AC1A150B6199144608 /* XKBaseAlert-Info.plist */,
+				9506BFE50F8AFC3CD1444C070376D62E /* XKBaseAlert-prefix.pch */,
+				435E1DD248A29AEB37C2BEB043BB4165 /* XKBaseAlert-umbrella.h */,
+				F2E1476ECA21F820594D6CFC18121191 /* XKBaseAlert.debug.xcconfig */,
+				704C13976A853F6DA46792A2A0F04652 /* XKBaseAlert.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XKBaseAlert";
 			sourceTree = "<group>";
 		};
-		C27F7D5CB7157BBC7758A107F3362BC3 /* XKBaseAlert */ = {
+		93D5A281F639E065D0EF0F061534F2E0 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				FEAE55D9AD579E931EFFB0786A4AC4E4 /* XKAlertContainerViewController.swift */,
-				3358DB7DAABEE9244AC5D92E8859E5A4 /* XKAlertPresentController.swift */,
-				45BA4E0308130CD9924294DC3DACF0B3 /* XKBaseAlertView.swift */,
-				D4E0E577023DB9736023E657DE594BFB /* Pod */,
-				19C28FCDB817AB3180C7BBDA6FE2E6E7 /* Support Files */,
+				4E81B7E934A8409251C29E6C4E9B85DE /* LICENSE */,
+				1D5273E32783DD2007DD1F2EE6DE3EE8 /* README.md */,
+				D7BEA2128E67ABFBEF78A9721AAD2262 /* XKBaseAlert.podspec */,
 			);
-			name = XKBaseAlert;
-			path = ../..;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		943EFB33C2448CA75A1EA82746E80403 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D05090389D195E65665764A16DCEB684 /* XKBaseAlert */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		CC5A271ADEAABF9E6E8374BD922E088C /* Targets Support Files */ = {
@@ -171,11 +170,25 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				67C47D1C4AD682C2DB91474845FBEB64 /* Development Pods */,
+				943EFB33C2448CA75A1EA82746E80403 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				4739808520211CC8951AC2560D53DC17 /* Products */,
 				CC5A271ADEAABF9E6E8374BD922E088C /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D05090389D195E65665764A16DCEB684 /* XKBaseAlert */ = {
+			isa = PBXGroup;
+			children = (
+				BA024E38761281D9F420F57754254F1D /* XKAlertContainerViewController.swift */,
+				88312CFF4BD19CBD8E5BBD659E1A5555 /* XKAlertPresentController.swift */,
+				C42BFE29E1FD1315C2BD42351FA951A1 /* XKBaseAlertView.swift */,
+				E04CD1FDB30BF35A7498C5F27CC01FF3 /* XKTransition.swift */,
+				93D5A281F639E065D0EF0F061534F2E0 /* Pod */,
+				5A989626CBABF3BF954C99404DC03548 /* Support Files */,
+			);
+			name = XKBaseAlert;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -184,16 +197,6 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D4E0E577023DB9736023E657DE594BFB /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				30A4E2E7D55AC07C83F71BAF6EC6DDBE /* LICENSE */,
-				5B3FA2BC5976E17F7F87DB97DF6B6085 /* README.md */,
-				4EF344A433B9FEBC13C006BC9296A597 /* XKBaseAlert.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		E46D5BA43A5D5BB7A78EF7AD2F3DCF10 /* Pods-XKBaseAlert_Example */ = {
@@ -232,11 +235,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		354EDFB70D2D2FAFAC6B2E072D1C3897 /* Headers */ = {
+		4DE176C50E4CB74D5531896C9009B8A0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9701ABCA7DDC3D0324D0C307F0936E0 /* XKBaseAlert-umbrella.h in Headers */,
+				3BFE09237C5D2A906511279F220DFCF6 /* XKBaseAlert-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +274,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				3B3D7166F0AD6CE1B3F85C273BE6B5AB /* PBXTargetDependency */,
+				306B2A6B73E444221C9C2D6F21542DBD /* PBXTargetDependency */,
 			);
 			name = "Pods-XKBaseAlert_Example";
 			productName = "Pods-XKBaseAlert_Example";
@@ -280,12 +283,12 @@
 		};
 		97969830AC17B02129CFB2F36759B502 /* XKBaseAlert */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B298223F6CBBE929B172B5647171B5CD /* Build configuration list for PBXNativeTarget "XKBaseAlert" */;
+			buildConfigurationList = 9C9B9D31D545607DF110D15163204092 /* Build configuration list for PBXNativeTarget "XKBaseAlert" */;
 			buildPhases = (
-				354EDFB70D2D2FAFAC6B2E072D1C3897 /* Headers */,
-				466217A80C36F1FCC59FC09DBC65CD65 /* Sources */,
-				B6FEE0A3BEFB4605942774AA2BA7C422 /* Frameworks */,
-				BF72E2E774F5CEFFFBCBBE4A770BA6B6 /* Resources */,
+				4DE176C50E4CB74D5531896C9009B8A0 /* Headers */,
+				4A9D7432C864999B436CA8B03775DE86 /* Sources */,
+				F9B90C2019266CC657CFF7E0729EECE9 /* Frameworks */,
+				173C158334EBE520F0BFB596B73E8C32 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -308,7 +311,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				F72F526E10CAFAD3630E2393072B6669 /* PBXTargetDependency */,
+				87DF19C6A0F3F846B695196011ABFC0B /* PBXTargetDependency */,
 			);
 			name = "Pods-XKBaseAlert_Tests";
 			productName = "Pods-XKBaseAlert_Tests";
@@ -345,14 +348,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		197FCFF6ABE033067E10982C1A12D13C /* Resources */ = {
+		173C158334EBE520F0BFB596B73E8C32 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF72E2E774F5CEFFFBCBBE4A770BA6B6 /* Resources */ = {
+		197FCFF6ABE033067E10982C1A12D13C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -369,14 +372,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		466217A80C36F1FCC59FC09DBC65CD65 /* Sources */ = {
+		4A9D7432C864999B436CA8B03775DE86 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33B8C79242D6D6D9A1B5827F6E92CF5E /* XKAlertContainerViewController.swift in Sources */,
-				52FFC42C357790A1363DF09794A62024 /* XKAlertPresentController.swift in Sources */,
-				C269CA8EB619E0D90567D9C3F21FE68D /* XKBaseAlert-dummy.m in Sources */,
-				A08FFF7604B465CD6E64FF3035C651A0 /* XKBaseAlertView.swift in Sources */,
+				ECDB856E430311144814D8D1499D14E6 /* XKAlertContainerViewController.swift in Sources */,
+				622BAE4DDC727E9C19D8CA3848DE2B1C /* XKAlertPresentController.swift in Sources */,
+				B9058DE225F22C4C2788D892C12D48EB /* XKBaseAlert-dummy.m in Sources */,
+				AEA40F4B6C99C0FC2EAF9B245896C42E /* XKBaseAlertView.swift in Sources */,
+				3EEF5C9DC1437D78DC211DA227F6FF5F /* XKTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,24 +403,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3B3D7166F0AD6CE1B3F85C273BE6B5AB /* PBXTargetDependency */ = {
+		306B2A6B73E444221C9C2D6F21542DBD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = XKBaseAlert;
 			target = 97969830AC17B02129CFB2F36759B502 /* XKBaseAlert */;
-			targetProxy = 8E3AD9E70FB92139119DD589B4EE8BEE /* PBXContainerItemProxy */;
+			targetProxy = CF244F86F2BBBF85A60DA30F96DA29E0 /* PBXContainerItemProxy */;
 		};
-		F72F526E10CAFAD3630E2393072B6669 /* PBXTargetDependency */ = {
+		87DF19C6A0F3F846B695196011ABFC0B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-XKBaseAlert_Example";
 			target = 8D599E5D77DD1CABE389CAFC5E5FC6F9 /* Pods-XKBaseAlert_Example */;
-			targetProxy = 6356928670E7C940C835D670012E4E89 /* PBXContainerItemProxy */;
+			targetProxy = 087408A2FE9CE8A86E8779A53FC434F7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		33F441D62A1F018E6D96237886B93CCC /* Release */ = {
+		11830F7FC19A7B2EA4E8B204422A5922 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 182240CB9FFEF2899A0C4BB79101F287 /* XKBaseAlert.release.xcconfig */;
+			baseConfigurationReference = 704C13976A853F6DA46792A2A0F04652 /* XKBaseAlert.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -671,6 +675,36 @@
 			};
 			name = Debug;
 		};
+		84E12BD6B9FF4D00D7B45DA129B3F9F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2E1476ECA21F820594D6CFC18121191 /* XKBaseAlert.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XKBaseAlert/XKBaseAlert-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XKBaseAlert/XKBaseAlert-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XKBaseAlert/XKBaseAlert.modulemap";
+				PRODUCT_MODULE_NAME = XKBaseAlert;
+				PRODUCT_NAME = XKBaseAlert;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		A006C9AFEF1BED9DE283CC96B5E18B60 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7ABDB973718ACF5D2F7FB22105316559 /* Pods-XKBaseAlert_Tests.debug.xcconfig */;
@@ -697,36 +731,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		DC0D8154080CBAED74B0DB6A33FD57F7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A32CDABAAA03A0F4970F9EEE63E8399B /* XKBaseAlert.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XKBaseAlert/XKBaseAlert-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XKBaseAlert/XKBaseAlert-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XKBaseAlert/XKBaseAlert.modulemap";
-				PRODUCT_MODULE_NAME = XKBaseAlert;
-				PRODUCT_NAME = XKBaseAlert;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -763,11 +767,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B298223F6CBBE929B172B5647171B5CD /* Build configuration list for PBXNativeTarget "XKBaseAlert" */ = {
+		9C9B9D31D545607DF110D15163204092 /* Build configuration list for PBXNativeTarget "XKBaseAlert" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC0D8154080CBAED74B0DB6A33FD57F7 /* Debug */,
-				33F441D62A1F018E6D96237886B93CCC /* Release */,
+				84E12BD6B9FF4D00D7B45DA129B3F9F4 /* Debug */,
+				11830F7FC19A7B2EA4E8B204422A5922 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

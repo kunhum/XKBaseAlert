@@ -133,7 +133,7 @@ extension XKTransition {
         UIView.animate(withDuration: animationDuration) {
             
             contentView.alpha     = 0.0
-            contentView.transform = CGAffineTransform(scaleX: 0.01, y: 0.01)
+            contentView.transform = CGAffineTransform(scaleX: 0.5, y: 0.5)
             
         } completion: { _ in
             transitionContext.completeTransition(true)
