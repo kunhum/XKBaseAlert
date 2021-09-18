@@ -68,7 +68,7 @@ extension XKAlertPresentController {
     public override func presentationTransitionWillBegin() {
         super.presentationTransitionWillBegin()
         
-        guard let containerBounds      = containerView?.bounds else { return }
+        guard let containerBounds      = frameOfPresentedView else { return }
         backgroundView.frame           = containerBounds
         backgroundView.backgroundColor = UIColor.black.withAlphaComponent(0)
         containerView?.addSubview(backgroundView)
