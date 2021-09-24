@@ -71,6 +71,7 @@ extension XKAlertPresentController {
         guard let containerBounds      = frameOfPresentedView else { return }
         backgroundView.frame           = containerBounds
         backgroundView.backgroundColor = UIColor.black.withAlphaComponent(0)
+        containerView?.frame           = containerBounds;
         containerView?.addSubview(backgroundView)
         
         UIView.animate(withDuration: animationDuration) {

@@ -7,7 +7,7 @@
 
 import UIKit
 
-public enum XKAlertStyle {
+@objc public enum XKAlertStyle: Int {
     case sheet
     case alert
 }

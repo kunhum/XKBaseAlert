@@ -18,7 +18,7 @@ open class XKAlertContainerViewController: UIViewController {
     //消失动画时间
     public var dismissAnimationDuration = 0.25
     ///风格
-    public var style = XKAlertStyle.alert
+    @objc public var style = XKAlertStyle.alert
     ///default is UIBlurEffectStyleDark
     public var effectStyle = UIBlurEffectStyle.dark
     ///必须指定
