@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XKBaseAlert'
-  s.version          = '1.0.10'
+  s.version          = '1.0.11'
   s.summary          = 'XKBaseAlert Swift Edition.'
 
 # This description is used to generate tags and improve search results.
@@ -28,20 +28,18 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/kunhum/XKBaseAlert.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
-  # s.pod_target_xcconfig = {
-  #      'ENABLE_BITCODE' => 'NO', 'SWIFT_VERSION' => '4.0'
-  #  }
-  s.swift_version='4.0'
+  s.swift_version = '5.0'
 
-  s.source_files = 'XKBaseAlert/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'XKBaseAlert' => ['XKBaseAlert/Assets/*.png']
-  # }
+  s.subspec 'Basic' do |ss|  
+    ss.source_files = 'XKBaseAlert/Classes/Basic/**/*'
+  end
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.subspec 'Common' do |ss|  
+    ss.source_files = 'XKBaseAlert/Classes/Common/**/*'
+    ss.dependency 'XKCategorySwift', '1.0.12'
+    ss.dependency 'SnapKit'
+  end
+   
 end

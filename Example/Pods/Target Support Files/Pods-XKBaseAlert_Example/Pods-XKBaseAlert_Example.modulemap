@@ -1,4 +1,4 @@
-framework module Pods_XKBaseAlert_Example {
+module Pods_XKBaseAlert_Example {
   umbrella header "Pods-XKBaseAlert_Example-umbrella.h"
 
   export *

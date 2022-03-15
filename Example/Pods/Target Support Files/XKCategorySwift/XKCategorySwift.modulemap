@@ -1,0 +1,6 @@
+module XKCategorySwift {
+  umbrella header "XKCategorySwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,6 +1,6 @@
 {
   "name": "XKBaseAlert",
-  "version": "1.0.5",
+  "version": "1.0.10",
   "summary": "XKBaseAlert Swift Edition.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/kunhum/XKBaseAlert",
@@ -13,12 +13,29 @@
   },
   "source": {
     "git": "https://github.com/kunhum/XKBaseAlert.git",
-    "tag": "1.0.5"
+    "tag": "1.0.10"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
-  "swift_versions": "4.0",
-  "source_files": "XKBaseAlert/Classes/**/*",
-  "swift_version": "4.0"
+  "swift_versions": "5.0",
+  "subspecs": [
+    {
+      "name": "Basic",
+      "source_files": "XKBaseAlert/Classes/Basic/**/*"
+    },
+    {
+      "name": "Common",
+      "source_files": "XKBaseAlert/Classes/Common/**/*",
+      "dependencies": {
+        "XKCategorySwift": [
+          "1.0.12"
+        ],
+        "SnapKit": [
+
+        ]
+      }
+    }
+  ],
+  "swift_version": "5.0"
 }

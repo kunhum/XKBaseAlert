@@ -20,7 +20,7 @@ open class XKAlertContainerViewController: UIViewController {
     ///风格
     @objc public var style = XKAlertStyle.alert
     ///default is UIBlurEffectStyleDark
-    public var effectStyle = UIBlurEffectStyle.dark
+    public var effectStyle = UIBlurEffect.Style.dark
     ///必须指定
     public var frameOfPresentedView = UIApplication.shared.keyWindow?.bounds
     ///遮罩的透明度,默认0.5

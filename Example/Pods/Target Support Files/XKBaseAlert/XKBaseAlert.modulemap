@@ -1,4 +1,4 @@
-framework module XKBaseAlert {
+module XKBaseAlert {
   umbrella header "XKBaseAlert-umbrella.h"
 
   export *

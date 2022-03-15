@@ -14,7 +14,7 @@ open class XKAlertPresentController: UIPresentationController {
     public var animationDuration = 0.5
     
     ///default is UIBlurEffectStyleDark
-    public var effectStyle = UIBlurEffectStyle.dark
+    public var effectStyle = UIBlurEffect.Style.dark
     ///必须指定
     public var frameOfPresentedView = UIApplication.shared.keyWindow?.bounds
     ///遮罩的透明度,默认0.5

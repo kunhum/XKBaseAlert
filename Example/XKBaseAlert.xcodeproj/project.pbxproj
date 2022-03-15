@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2568C6A924DAF734FF2D8E4A /* Pods_XKBaseAlert_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C75D3540804BFF32D377371C /* Pods_XKBaseAlert_Tests.framework */; };
+		5DF6D87264730BE057D2F337 /* libPods-XKBaseAlert_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A8B3B01044E396BA9A949E7 /* libPods-XKBaseAlert_Tests.a */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		7C0AD2B8E5F1A15E9676B572 /* Pods_XKBaseAlert_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C54D67ED0D1A0278E8401A /* Pods_XKBaseAlert_Example.framework */; };
+		9671E1A482DD167C14F8C7DE /* libPods-XKBaseAlert_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D501A4BFF7353EF3E5A3631F /* libPods-XKBaseAlert_Example.a */; };
 		E1E2D985247CE98400273F1C /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E2D984247CE98400273F1C /* AlertViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		14C54D67ED0D1A0278E8401A /* Pods_XKBaseAlert_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XKBaseAlert_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A8B3B01044E396BA9A949E7 /* libPods-XKBaseAlert_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XKBaseAlert_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19E541ABDD3916D559C39A8D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		5D872E55BE9BBAB11F8EDFE4 /* XKBaseAlert.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XKBaseAlert.podspec; path = ../XKBaseAlert.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* XKBaseAlert_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XKBaseAlert_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,7 +43,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		94D2591034A75158858890AE /* Pods-XKBaseAlert_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKBaseAlert_Example.debug.xcconfig"; path = "Target Support Files/Pods-XKBaseAlert_Example/Pods-XKBaseAlert_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C75D3540804BFF32D377371C /* Pods_XKBaseAlert_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XKBaseAlert_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D501A4BFF7353EF3E5A3631F /* libPods-XKBaseAlert_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XKBaseAlert_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D67AF87215859C87CCFD52EC /* Pods-XKBaseAlert_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKBaseAlert_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XKBaseAlert_Tests/Pods-XKBaseAlert_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D7148AD200E482AC984C1062 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DBC0D09FCE0CD71F6B186971 /* Pods-XKBaseAlert_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKBaseAlert_Example.release.xcconfig"; path = "Target Support Files/Pods-XKBaseAlert_Example/Pods-XKBaseAlert_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C0AD2B8E5F1A15E9676B572 /* Pods_XKBaseAlert_Example.framework in Frameworks */,
+				9671E1A482DD167C14F8C7DE /* libPods-XKBaseAlert_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,7 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2568C6A924DAF734FF2D8E4A /* Pods_XKBaseAlert_Tests.framework in Frameworks */,
+				5DF6D87264730BE057D2F337 /* libPods-XKBaseAlert_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,8 +145,8 @@
 		821F1328470B17A135D0CCFC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				14C54D67ED0D1A0278E8401A /* Pods_XKBaseAlert_Example.framework */,
-				C75D3540804BFF32D377371C /* Pods_XKBaseAlert_Tests.framework */,
+				D501A4BFF7353EF3E5A3631F /* libPods-XKBaseAlert_Example.a */,
+				0A8B3B01044E396BA9A949E7 /* libPods-XKBaseAlert_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -173,7 +173,6 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				115306521C38A7F1E0308019 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -265,24 +264,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		115306521C38A7F1E0308019 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-XKBaseAlert_Example/Pods-XKBaseAlert_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/XKBaseAlert/XKBaseAlert.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XKBaseAlert.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XKBaseAlert_Example/Pods-XKBaseAlert_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		7111759DD95D4D721C80CCA8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -423,11 +404,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -469,10 +451,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -490,7 +473,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -507,7 +490,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
