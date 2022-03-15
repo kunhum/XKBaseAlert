@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XKBaseAlert'
-  s.version          = '1.0.13'
+  s.version          = '1.0.14'
   s.summary          = 'XKBaseAlert Swift Edition.'
 
 # This description is used to generate tags and improve search results.
@@ -38,7 +38,7 @@ TODO: Add long description of the pod here.
 
   s.subspec 'Common' do |ss|  
     ss.source_files = 'XKBaseAlert/Classes/Common/**/*'
-    ss.dependency 'XKCategorySwift', '1.0.12'
+    ss.dependency 'XKCategorySwift'
     ss.dependency 'SnapKit'
     ss.dependency 'XKBaseAlert/Basic'
   end
