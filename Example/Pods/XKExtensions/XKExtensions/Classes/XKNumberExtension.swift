@@ -72,7 +72,7 @@ public extension Double {
         return (value < 0.0) ? intValue * -1 : intValue
     }
 
-    func digitText(_ number: Int, needFormatterPrice: Bool = true) -> String {
+    func digitText(_ number: Int, needFormatterPrice: Bool = false) -> String {
         var value = self
         if needFormatterPrice {
             value = fabs(self) >= 100_000_000.0 ? self / 100_000_000.0 : self / 10_000.0

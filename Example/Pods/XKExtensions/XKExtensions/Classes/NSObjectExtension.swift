@@ -15,9 +15,16 @@ public extension NSObject {
     static var xk_className: String {
         return String(describing: self)
     }
-
     var xk_className: String {
         return String(describing: self.classForCoder)
-   }
+    }
+
+    /// 获取模块名
+    static var xk_moduleName: String? {
+        return NSStringFromClass(self).components(separatedBy: ".").first
+    }
+    var xk_moduleName: String? {
+        return NSStringFromClass(classForCoder).components(separatedBy: ".").first
+    }
 
 }

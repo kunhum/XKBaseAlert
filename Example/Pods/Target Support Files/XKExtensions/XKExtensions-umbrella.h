@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double XKCategorySwiftVersionNumber;
-FOUNDATION_EXPORT const unsigned char XKCategorySwiftVersionString[];
+FOUNDATION_EXPORT double XKExtensionsVersionNumber;
+FOUNDATION_EXPORT const unsigned char XKExtensionsVersionString[];
 

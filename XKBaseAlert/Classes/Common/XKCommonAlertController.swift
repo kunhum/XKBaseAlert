@@ -1,12 +1,9 @@
 //
-//  TZYKNormalAlertController.swift
-//  Pods
-//
 //  Created by kenneth on 2022/3/15.
 //
 
 import UIKit
-import XKCategorySwift
+import XKExtensions
 import SnapKit
 
 public class TZYKNormalAlertController: XKAlertContainerViewController {

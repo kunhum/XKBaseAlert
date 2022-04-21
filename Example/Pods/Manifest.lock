@@ -25,14 +25,15 @@ PODS:
   - SwifterSwift/StoreKit (5.2.0)
   - SwifterSwift/SwiftStdlib (5.2.0)
   - SwifterSwift/UIKit (5.2.0)
-  - XKBaseAlert (1.0.11):
-    - XKBaseAlert/Basic (= 1.0.11)
-    - XKBaseAlert/Common (= 1.0.11)
-  - XKBaseAlert/Basic (1.0.11)
-  - XKBaseAlert/Common (1.0.11):
+  - XKBaseAlert (1.0.14):
+    - XKBaseAlert/Basic (= 1.0.14)
+    - XKBaseAlert/Common (= 1.0.14)
+  - XKBaseAlert/Basic (1.0.14)
+  - XKBaseAlert/Common (1.0.14):
     - SnapKit
-    - XKCategorySwift (= 1.0.12)
-  - XKCategorySwift (1.0.12):
+    - XKBaseAlert/Basic
+    - XKExtensions
+  - XKExtensions (1.0.0):
     - SwifterSwift
 
 DEPENDENCIES:
@@ -42,7 +43,8 @@ SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - SnapKit
     - SwifterSwift
-    - XKCategorySwift
+  trunk:
+    - XKExtensions
 
 EXTERNAL SOURCES:
   XKBaseAlert:
@@ -51,9 +53,9 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   SwifterSwift: 334181863c416882d97b7a60c05054d9e4d799e2
-  XKBaseAlert: 64f3d37da6ef1c38386823d46c0176d037d058d0
-  XKCategorySwift: d9d0427aa817d21c5fe809cf27077c2f14ae086f
+  XKBaseAlert: d74ba0db27ed21d25af40af43f9eca0d2a8bff2e
+  XKExtensions: 5c3c0e9229cebfad406e7172704034c122db413c
 
 PODFILE CHECKSUM: 70022a476dad2c12ee5db7348d2aef88540b1360
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.11.3
