@@ -51,6 +51,18 @@ open class XKAlertContainerViewController: UIViewController {
         return vc as? Self
     }
     
+    public class func instance() -> Self {
+        let vc = Self() as XKAlertContainerViewController
+        vc.initMethod()
+        return vc as! Self
+    }
+    
+    public init(style: XKAlertStyle = .alert) {
+        self.init()
+        self.style = style
+        initMethod()
+    }
+    
     open override func viewDidLoad() {
         super.viewDidLoad()
 
