@@ -105,7 +105,7 @@ fileprivate extension XKNormalAlertController {
     func createTitleLabel() -> UILabel {
         let titleLabel = UILabel()
         titleLabel.text      = "标题"
-        titleLabel.textColor = UIColor.color33
+        titleLabel.textColor = UIColor(hexString: "333333")
         titleLabel.font      = UIFont.xk_pingFangSC(size: 18.0, name: .medium)
         return titleLabel
     }
@@ -117,7 +117,7 @@ fileprivate extension XKNormalAlertController {
     func createContentLabel() -> UILabel {
         let contentLabel = UILabel()
         contentLabel.text          = "内容"
-        contentLabel.textColor     = UIColor.color33
+        contentLabel.textColor     = UIColor(hexString: "333333")
         contentLabel.font          = UIFont.xk_pingFangSC(size: 18.0, name: .medium)
         contentLabel.numberOfLines = 0
         contentLabel.textAlignment = .center
@@ -132,7 +132,7 @@ fileprivate extension XKNormalAlertController {
         let leftButton = UIButton(type: .custom)
         leftButton.backgroundColor = .clear
         leftButton.setTitle("左", for: .normal)
-        leftButton.setTitleColor(UIColor.color33, for: .normal)
+        leftButton.setTitleColor(UIColor(hexString: "333333"), for: .normal)
         leftButton.addTarget(self, action: #selector(onPressedLeftButton), for: .touchUpInside)
         return leftButton
     }
@@ -140,7 +140,7 @@ fileprivate extension XKNormalAlertController {
         let rightButton = UIButton(type: .custom)
         rightButton.backgroundColor = .clear
         rightButton.setTitle("右", for: .normal)
-        rightButton.setTitleColor(UIColor.color33, for: .normal)
+        rightButton.setTitleColor(UIColor(hexString: "333333"), for: .normal)
         return rightButton
     }
     func createButtonLine() -> UIView {

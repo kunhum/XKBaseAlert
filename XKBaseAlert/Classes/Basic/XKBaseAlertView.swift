@@ -8,7 +8,7 @@
 
 import UIKit
 
-enum XKAlertViewAnimation {
+public enum XKAlertViewAnimation {
     
     ///底部弹出指frame位置
     case sheet
@@ -16,12 +16,12 @@ enum XKAlertViewAnimation {
     case alert
 }
 
-public class XKBaseAlertView: UIView {
+open class XKBaseAlertView: UIView {
     
     let SCREEN_WIDTH  = UIScreen.main.bounds.width
     let SCREEN_HEIGHT = UIScreen.main.bounds.height
     ///内容
-    @IBOutlet weak var contentView: UIView? {
+    @IBOutlet public weak var contentView: UIView? {
         didSet {
             guard let contentView = self.contentView else { return }
             
@@ -32,21 +32,21 @@ public class XKBaseAlertView: UIView {
     }
     
     ///背景
-    var backgroundView = UIView()
+    public var backgroundView = UIView()
     ///可以指定superView， 默认为keyWindow
-    weak var customSuperView: UIView? = UIApplication.shared.keyWindow!
+    public weak var customSuperView: UIView? = UIApplication.shared.keyWindow!
     ///动画持续时间，alert方式弹出的时间是这个的2倍
-    var animationDuration     = 0.35
+    public var animationDuration     = 0.35
     ///背景颜色的透明度
-    var backgroundViewOpacity = 0.5
+    public var backgroundViewOpacity = 0.5
     ///点击空白处是否自动隐藏，默认为true
-    var dismissWhenTouchBlank = true
+    public var dismissWhenTouchBlank = true
     ///隐藏后是否自动移除，默认为true
-    var removeAfterHidden: Bool = true
+    public var removeAfterHidden: Bool = true
     ///动画，默认为sheet
-    var animationType = XKAlertViewAnimation.sheet
+    public var animationType = XKAlertViewAnimation.sheet
     
-    init() {
+    public init() {
         super.init(frame: CGRect.zero)
         setupSubViews()
     }
@@ -54,7 +54,7 @@ public class XKBaseAlertView: UIView {
         super.init(frame: frame)
         setupSubViews()
     }
-    required init?(coder: NSCoder) {
+    required public init?(coder: NSCoder) {
         super.init(coder: coder)
     }
     
@@ -74,9 +74,14 @@ public class XKBaseAlertView: UIView {
         
         backgroundView.backgroundColor = UIColor.black.withAlphaComponent(0.0)
         
+        initSubviews()
     }
     
-    public override func layoutSubviews() {
+    open func initSubviews() {
+        
+    }
+    
+    open override func layoutSubviews() {
         super.layoutSubviews()
         
         backgroundView.frame = bounds
@@ -105,10 +110,10 @@ public class XKBaseAlertView: UIView {
 }
 
 //MARK: - 公共方法
-extension XKBaseAlertView {
+public extension XKBaseAlertView {
     
     //MARK: 显示
-    func xk_show() {
+    @objc open func xk_show() {
         
         sendSubviewToBack(backgroundView)
         
@@ -122,7 +127,7 @@ extension XKBaseAlertView {
     }
     
     //MARK: 隐藏
-    func xk_dismiss() {
+    @objc open func xk_dismiss() {
         
         switch animationType {
         case .sheet:
