@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XKBaseAlert'
-  s.version          = '1.0.17'
+  s.version          = '1.0.18'
   s.summary          = 'XKBaseAlert Swift Edition.'
 
 # This description is used to generate tags and improve search results.
@@ -29,7 +29,6 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
-
   s.swift_version = '5.0'
 
   s.subspec 'Basic' do |ss|  
